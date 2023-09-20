@@ -105,7 +105,19 @@ input {
 #r4:checked ~ .navigation>.b4 {
     background-color: brown;
 }
-@media screen and (max-width: 320px){
+#r1:checked:hover ~ .navigation>.b1 {
+    background-color: red;
+}
+#r2:checked:hover ~ .navigation>.b2 {
+    background-color: red;
+}
+#r3:checked:hover ~ .navigation>.b3 {
+    background-color: red;
+}
+#r4:checked:hover ~ .navigation>.b4 {
+    background-color: red;
+}
+@media screen and (max-width: 600px){
     .sliders {
         grid-template-areas:
         "A A A A"
